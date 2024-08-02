@@ -935,8 +935,8 @@ iframe{
         font-size: 15px;
     }
     #about-me p{
-        font-size: 3.5vw;
-        line-height: 3.8vw;
+        font-size: 3vw;
+        line-height: 4vw;
     }
     #skills{
         height: 35vh;
@@ -1000,7 +1000,7 @@ iframe{
     }
     #python{
         height: 2.5vh;
-        width: 9.5vw;
+        width: 9.7vw;
         /* background-color: red; */
         display: flex;
         align-items: center;
@@ -1012,7 +1012,7 @@ iframe{
     }
     #DataVisualization{
         height: 2.5vh;
-        width: 20.88vw;
+        width: 21.2vw;
         /* background-color: red; */
         display: flex;
         align-items: center;
@@ -1024,7 +1024,7 @@ iframe{
     }
     #StatisticalAnalysis{
         height: 2.5vh;
-        width: 22vw;
+        width: 22.5vw;
         /* background-color: red; */
         display: flex;
         align-items: center;
@@ -1036,7 +1036,7 @@ iframe{
     }
     #ml{
         height: 2.5vh;
-        width: 21.16vw;
+        width: 22vw;
         /* background-color: red; */
         display: flex;
         align-items: center;
@@ -1048,7 +1048,7 @@ iframe{
     }
     #dl{
         height: 2.5vh;
-        width: 17.8vw;
+        width: 18vw;
         /* background-color: red; */
         display: flex;
         align-items: center;
