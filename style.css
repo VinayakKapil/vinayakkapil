@@ -152,24 +152,29 @@ nav{
 #page1{
     min-height: 120vh;
     width: 100%;
+    padding: 0;
+    margin: 0;
     background-color: #EFEAE3;
     position: relative;
-    padding: 0 0.5vw;
 }
 #center{
     min-height: 90vh;
     width: 100%;
+    margin: 0;
     /* background-color: rgba(0, 255, 55, 0.849); */
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
-    border-bottom: 1.2px solid rgba(0, 73, 16, 0.678);
+    border-bottom: 1px solid teal;
+    padding-top: 10vw;
     /* padding-bottom: 0.9vw; */
 }
 #center img{
     height: 77vh;
     width: 25vw;
-    padding-left: 2vw;
+    padding-left: 1.5vw;
+    margin: 0;
+    /* background-color: #464545; */
 }
 #left h3{
     width: 25vh;
@@ -183,11 +188,13 @@ nav{
     font-size: 10vw;
     line-height: 8.5vw;
     text-align: right;
+    padding-right: 0.3vw;
 }
 #page1 video{
     border-radius: 30px;
     width: 100%;
     margin-top: 4vw;
+    padding: 0 0.3vw;
     position: relative;
 }
 #hero-shape{
@@ -196,7 +203,7 @@ nav{
     height: 40vw;
     /* border-radius: 50%; */
     right: 0;
-    top: 84vh;
+    top: 90vh;
 }
 #sub-hero1{
     height: 100%;
@@ -720,19 +727,19 @@ iframe{
         position: absolute;
         justify-content: space-evenly;
         top: 0;
-        /* padding-top: 12vw; */
+        padding-right: 8.2vw;
         right: -100%;
         width: 30vw;
-        height: 45vh;
-        background-color: rgba(108, 187, 187, 0.747);
+        height: 48vh;
+        background-color: rgba(108, 187, 187, 0.705);
         transition: all 0.6s ease;
         pointer-events: none;
     }
     #nav-part2 h1{
         font-size: 12px;
-        height: 4vh;
-        width: 13vw;
-        border-radius: 3.5vw;
+        height: 4.5vh;
+        width: 15.8vw;
+        border-radius: 3.3vw;
         pointer-events: all;
         /* background-color: black; */
     }
@@ -752,7 +759,7 @@ iframe{
 
 
     #page1{
-        min-height: 92vh;
+        min-height: 30vh;
         width: 100%;
         padding: 0 0vw;
 
@@ -902,7 +909,8 @@ iframe{
         min-height: 96vh;
         width: 100%;
         /* background-color: aquamarine; */
-        padding: 0.8vw 2vw ;
+        padding: 1vw 2vw ;
+        padding-top: 2.8vw;
         display: flex;
         align-items: flex-start;
         justify-content: space-between;
@@ -929,10 +937,10 @@ iframe{
     }
     #about-me{
         background-color: rgba(0, 255, 255, 0.103);
-        height: 55vh;
+        height: 52vh;
         width: 97%;
         border-radius: 50px;
-        padding: 0 2vw;
+        padding: 0 2.2vw;
         padding-top: 8vw;
     }
     #about-me h1{
@@ -940,7 +948,7 @@ iframe{
     }
     #about-me p{
         font-size: 3.5vw;
-        line-height: 3.8vw;
+        line-height: 4.1vw;
     }
     #skills{
         height: 35vh;
