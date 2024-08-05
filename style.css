@@ -730,9 +730,9 @@ iframe{
     }
     #nav-part2 h1{
         font-size: 12px;
-        height: 5vh;
-        width: 12.5vw;
-        border-radius: 3.3vw;
+        height: 4vh;
+        width: 13vw;
+        border-radius: 3.5vw;
         pointer-events: all;
         /* background-color: black; */
     }
