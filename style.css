@@ -218,7 +218,7 @@ nav{
     height: 30vw;
     width: 30vw;
     background: linear-gradient(teal, rgb(0, 184, 184));
-        border-radius: 50%;
+    border-radius: 50%;
     border-radius: 50%;
     filter: blur(40px);
     position: absolute;
@@ -686,28 +686,36 @@ iframe{
     height: 100vh;
     width: 120%;
     background-color: black;
-    color: rgba(179, 218, 218, 0.795);
+    color: teal;
     bottom: 0;
     display: flex;
     /* align-items: flex-end; */
     justify-content: flex-end;
     flex-direction: column;
 }
-#footer h1{
-    font-size: 20vw;
+#footer h3{
+    font-size: 5vw;
+}
+#footer h2{
+    font-size: 12.3vw;
     padding: 1vw 2vw;
+}
+#textend{
+    display: flex;
+    align-content: center;
+    padding: 0 1vw;
 }
 #footer-div{
     height: 100vh;
     width: 100%;
     border-bottom-left-radius: 150px;
     border-bottom-right-radius: 150px;
-    background-color: teal;
-    filter: blur(90px);
+    background: linear-gradient(to top, rgb(1, 85, 85), rgb(1, 161, 161));
+    filter: blur(100px);
 
 }
 #footer-bottom{
-    border-top: 1px solid teal;
+    border-top: 0.5px solid teal;
     height: 10vh;
     width: 100%;
 }
