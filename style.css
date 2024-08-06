@@ -684,7 +684,7 @@ iframe{
     position: fixed;
     z-index: 9;
     height: 100vh;
-    width: 120%;
+    width: 100%;
     background-color: black;
     color: teal;
     bottom: 0;
